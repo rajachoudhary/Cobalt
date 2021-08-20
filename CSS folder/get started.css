@@ -2,6 +2,9 @@
     margin: auto;
     width: 1200px;
     background-color: rgb(245, 255, 254);
+    /* border: 1px solid black; */
+    margin-top: 200px;
+    height: 1200px;
 }
 #section-1 > div{
     width: 80%;
@@ -19,8 +22,9 @@
     font-size: 55px;
     text-align: center;
     color: #063c4d;
-    margin-top: -40px;
-    margin-bottom: 0px;
+    /* margin-top: -40px; */
+    margin-bottom: 40px;
+
 }
 #section-1 > div > p{
     text-align: center;
@@ -32,95 +36,83 @@
  #reg-form{
     max-width: 65%;
     margin: auto;
-    /* border: 1px solid rgb(187, 185, 185);
-    padding: 50px;
-    border-radius: 20px;
-    background-color: white; */
 } 
 
  .label, .input,select {
             display: block;
             outline: none;
-        }
-        .label{
-            font-size: 18px;
-            margin-bottom: 5px;
-             color: black;
-            margin-left:16px;
-        }
-        form > p{
-            margin-top: 0px;
-        }
-        .input{
-            
-            font-size: 15px;
-            width: 95%;
-            height: 35px;
-            margin:auto;
-           
-            background-color: rgba(245,248,250,0.5)
+}
+.label{
+    font-size: 18px;
+    margin-bottom: 5px;
+        color: black;
+    margin-left:16px;
+}
+form > p{
+    margin-top: 0px;
+}
+.input{
+    
+    font-size: 15px;
+    width: 95%;
+    height: 35px;
+    margin:auto;
+    
+    background-color: rgba(245,248,250,0.5)
 ;
-            border:1px solid #576f76;
-             opacity: 0.5; 
-            
-        }
-        .input{
-             color: #063c4d;
-             font-weight: 500;
-        }
-        select{
-            font-size: 15px;
-            width: 95%;
-            height: 35px;
-            margin:auto;
-           
-            background-color: rgba(245,248,250)
-;
-            border:1px solid #576f76;
-             opacity: 0.5;
-             color: #063c4d;
-            /* width: 95%;
-            font-size: 18px;
-            margin-bottom: 10px;
-            height: 50px; */
-        }
-       
-       
-        .input + .label{
-            margin-top: 20px;
-        }
-        select + label{
-            margin-top: 20px;
-        }
-        .input + p{
-            color: red;
-            font-size: 20px;
-        }
-        input[type="submit"]{
-            background-color: #31ded4;
-            color: white;
-            padding: 6px;
-            font-size: 15px;
-            border: none;
-            padding-left: 20px;
-            padding-right: 20px;
-            margin-top: 40px;
-            border-radius: 5px;
-            padding: 10px 20px 10px 20px;
-        }
-        #dis-form > p:nth-child(odd){
-            font-size: 24px;
-            margin-bottom: 4px;
-        }
-         #dis-form > p:nth-child(even){
-            font-size: 32px;
-            margin-bottom: 20px;
-            margin-top: 4px;
-        }
-        #dis-form > p:nth-child(2){
-            font-size: 56px;
-        }
-        
+    border:1px solid #576f76;
+        opacity: 0.5; 
+    
+}
+.input{
+        color: #063c4d;
+        font-weight: 500;
+}
+select{
+    font-size: 15px;
+    width: 95%;
+    height: 35px;
+    margin:auto;
+    background-color: rgba(245,248,250);
+    border:1px solid #576f76;
+    opacity: 0.5;
+    color: #063c4d;
+}
+.input + .label{
+    margin-top: 20px;
+}
+select + label{
+    margin-top: 20px;
+}
+.input + p{
+    color: red;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: #31ded4;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+#dis-form > p:nth-child(odd){
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+    #dis-form > p:nth-child(even){
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+#dis-form > p:nth-child(2){
+    font-size: 56px;
+}
+
 span{
     color: red;
 }
@@ -131,39 +123,62 @@ span{
     margin-left: 18px;
 }
 /* section-3 */
-
+.get-Started-section-3{
+    /* border: 1px solid black; */
+    margin-bottom:-100px;
+}
 /* section-4 */
-
-#section-4 > div{
-    width: 890px;
+#section-4-get-started{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 800px;
     margin: auto;
-}
-#section-4 > div > div:nth-child(1){
-    text-align: center;
+    margin-top: 100px;
    
-   margin-top: 10%;
 }
-#section-4 > div>div >h1{
+#section-4-get-started > div{
+    width: 890px;
+    /* border: 1px solid black; */
+    width: 200px;
+    margin: auto;
+    
+   
+}
+#section-4-get-started > div > div:nth-child(1){
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 100px;
+   margin-top:0;
+   /* margin-bottom: 100px; */
+}
+#section-4-get-started >h1{
     text-align: center;
     font-size: 45px;
      color: #063c4d;
+     width: 400px;
+     /* border: 1px solid black; */
+     margin: auto;
+     margin-top: 50px;
 }
 
 /* section-5 */
 #section-5{
     width: 1220px;
-    margin: 50px auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
+  
 }
 #section-5 > div{
-    max-width: 26%;
+    max-width: 30%;
     margin: 1%;
     padding: 60px 20px 20px 30px;
     border: 1px solid rgb(216, 215, 215);
     border-radius: 20px;
     cursor: pointer;
+    /* border: 1px solid black; */
 }
+
 #section-5 > div:hover{
     margin-top: -0.5%;
     transition: top 0.2 ease;

@@ -1,0 +1,114 @@
+/* ------------------section1--------------------------- */
+.section-1-features{
+    margin-bottom: 100px;
+    /* border: 1px solid black; */
+}
+.features-Section1-Bg-Left>img{
+    position: absolute;
+    top: 230px;
+    z-index: 0;
+    /* border: 1px solid black; */
+}
+.features-Section1-Bg-right>img{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 230px;
+    right: 0;
+    z-index: 0;
+}
+.features-Section1-TextPart{
+    /* text-align: center; */
+    color: #063C4D;
+    margin-left: 400px;
+    /* background-color: black; */
+    z-index: 1;
+    width: 40%;
+    margin: auto;
+    margin-top: 250px;
+    /* border: 1px solid red;  */
+    text-align: center;
+    /* height: 200px; */
+}
+.features-Section1-TextPart>h1{
+    font-size: 62px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.features-Section1-TextPart>p{
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 50px;
+    font-weight: 600px;
+    color: #85959a;;
+}
+.get-Started{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: #fed265;
+    font-family: "Circular Std", sans-serif;
+    color: #0a3947;
+    font-weight: 600;
+    border: none;
+}
+.get-Started:hover{
+    background-color: #FFC740;
+}
+.section-1-features>hr{
+    width: 80%;
+    opacity: 0.5;
+    margin: auto;
+    margin-top: 200px;
+}
+
+
+/* ------------------SECTION-2------------------- */
+.features{
+    margin-bottom: 200px !important  
+}
+/* -------------------SECTION-3------------------ */
+.section-3-features{
+    background-color: #F4FBFC;
+}
+.section-3-fetures-box{
+    display: flex;
+    height: 800px;
+}
+.section-3-features> h2{
+   text-align: center;
+   font-size: 38px;
+   width: 37%;
+   line-height: 1.5;
+   margin: auto;
+   height: 150px;
+   margin-top: 10%;
+   padding-top: 100px;
+   margin-bottom: 100px;
+}
+
+.section-3-left-png{
+    display: flex;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 40px;
+    background-color: white;
+}
+.section-3-left-png >div{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.section-3-left-png-img{
+    margin-left: 20px;
+}
+
+.features-section3-rightImg>img{
+width: 80%;
+height: 500px;
+margin-top: 30px;
+margin-left: 100px;
+}
