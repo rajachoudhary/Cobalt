@@ -394,6 +394,23 @@ a {
   z-index: 15;
   /* border: 1px solid black */
 }
+/* --------------footer-------------------------- */
+.footer{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerMidSection>p:hover{
+     color: #00D586;
+}
+.footer>div:nth-child(1){
+    font-size: 17px;
+    color: #576F76;
+    margin-left:20px
+}
 .testimonial-heading {
   color: #063c4d;
   font-weight: 550;
@@ -424,7 +441,17 @@ a {
   color: #576f76;
   font-size: 20px;
 }
-
+.footerImg{
+    margin-left: 85px;
+    display: flex;
+}
+.footerImg>img{
+    height: 27px;
+    width: 27px;
+    border-radius: 100px;
+    margin-right: 20px;
+    padding: 4px;
+}
 .autor-image {
   /* width: 90px; */
   height: 100px;
@@ -530,6 +557,59 @@ span {
   margin-left: 30px;
 }
 
+
+/* Main-navbar css */
+.main-navbar{
+background-color: white;
+position: fixed;
+top: 40px;
+left: 0px;
+right: 0px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 20px 10px;
+z-index: 10000;
+}
+.main-logo-box{
+    margin-left: 20px;
+}
+.main-nav-list li{
+padding-bottom: 15px;
+}
+
+.primary-btn{
+border-radius: 100px;
+background-color: #ffd265;
+box-shadow: 4px 4px 16px 0 rgb(255 210 101 / 16%);
+padding: 15px 25px;
+margin-right: 12px;
+color: #063c4d;
+font-size: 18px;
+line-height: 20px;
+font-weight: 500;
+text-align: center;
+width: 140px;
+}
+.main-nav-links{
+text-decoration: none;
+color: #063c4dc5;
+font-weight: 550;
+font-size: 16px;
+margin: 0px 10px;
+}
+
+.primary-btn-link{
+
+font-size: 16px;
+text-decoration: none;
+font-weight: 550;
+color: rgba(0, 0, 0, 0.637);
+}
+.main-navbar ul{
+display: flex;
+}
 .topHeadingParagraph {
   color: #576f76;
   font-size: 18px;
