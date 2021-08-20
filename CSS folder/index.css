@@ -553,17 +553,18 @@ h3{
 .footer{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
-.footerMidSection{
-    margin-left:130px;
-}
+
 .footerMidSection>p:hover{
      color: #00D586;
 }
 .footer>div:nth-child(1){
     font-size: 17px;
     color: #576F76;
-    margin-left:10%
+    margin-left:20px
 
 }
 .footer>div:nth-child(2){
@@ -579,12 +580,14 @@ h3{
 }
 .footerImg{
     margin-left: 85px;
+    display: flex;
 }
 .footerImg>img{
-    height: 32px;
-    width: 32px;
+    height: 27px;
+    width: 27px;
     border-radius: 100px;
-    margin-right: 10px;
+    margin-right: 20px;
+    padding: 4px;
 }
 .faceBookLogo{
     background-color: #06789E;
@@ -651,6 +654,10 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 20px 10px;
+z-index: 10000;
+}
+.main-logo-box{
+    margin-left: 20px;
 }
 .main-nav-list li{
 padding-bottom: 15px;
