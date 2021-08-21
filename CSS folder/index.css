@@ -434,13 +434,15 @@ a {
 
 .autor-name {
   font-size: 20px;
-  font-weight: 540;
+  font-weight: 550;
   color: #063c4d;
 }
 
 .autor-title {
   color: #576f76;
   font-size: 20px;
+  opacity: 0.7;
+  font-weight: 500;
 }
 .footerImg{
     margin-left: 85px;
