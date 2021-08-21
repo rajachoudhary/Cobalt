@@ -40,6 +40,23 @@ text-decoration: none;
 color: black;
 }
 
+a{
+    text-decoration: none;
+}
+
+/* Css for hovers */
+.main-nav-links:hover,
+.top-nav-links:hover,
+.submenu-links:hover {
+  color: rgb(0, 213, 134);
+}
+.main-nav-list li:hover > .submenu {
+  visibility: visible;
+}
+
+.primary-btn:hover {
+  background-color: rgb(255, 199, 64);
+}
 
 /* Main-navbar css */
 .main-navbar{
@@ -128,6 +145,7 @@ font-weight: 540;
 color: #063c4d;
 }
 
+
 /* -----------section1----- */
 p {
     margin-bottom: 10px;
@@ -168,11 +186,16 @@ font-weight: 700;
   padding-top: 110px;
   padding-bottom: 260px;
   background-color: rgb(245,252,253);
- /* background-image: url("../img/pricing-s1-bg1.svg");
- background-position:bottom left ;
- background-repeat: no-repeat; */
+ 
  
 }
+/* .pricing1{
+     background-image: url("../img/pricing-s1-bg1.svg");
+    background-position:top left ;
+    background-repeat: no-repeat;;
+z-index: 1;
+} */
+
 
 .switch-box{
     width: 80px;
@@ -200,6 +223,7 @@ font-weight: 700;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: -120px;
+    
 }
 .pricingplans-title{
     margin-bottom: 10px;
@@ -236,6 +260,7 @@ font-weight: 700;
 .pricing-card{
   margin: 10px;
   flex-basis: 30%;
+  margin-top: -40px;
         padding: 50px 40px 55px;
         border-style: solid;
         border-width: 1px;
@@ -277,6 +302,9 @@ span{
     /* background-color: pink; */
     width: 100%;
 }
+#pricing2{
+    margin-top: -100px;
+}
 .pricing-card hr{
     margin: 44px 0px;
 }
@@ -300,4 +328,183 @@ box-shadow: 4px 4px 16px 0 rgb(255 210 101 / 16%);
    margin-top: 5px;
     width: 18px;
     margin-right: 10px;
+}
+.pricing-sec2bg1{
+   
+    position:absolute;
+    left: -30px;
+    top: 340px;
+    
+}
+.pricing1,.pricing3{
+    z-index: 2;
+}
+.pricing-sec2bg2{
+   
+    position:absolute;
+    right: 0px;
+    top:640px
+}
+
+/* ------------------SECTION-3------------------ */
+.section-2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    height: 70px;
+  }
+  
+  .section-2 > h2 {
+    text-align: center;
+    color: #063c4d;
+    font-family: "Circular Std", sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+  }
+  
+  .section-2 > div {
+    /* display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    background-color: #fff;
+    color: #444;*/
+    margin-top: 50px;
+    /* min-width: 350px;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .box > img {
+    width: 140px;
+  }
+  
+  /* ---------------SECTION4------------ */
+.pricing-sec4{
+    background-color: rgb(244,251,252);
+    margin-top: 130px;
+    padding: 30px;
+}
+.p-sec4-head{
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 10px;
+    font-size: 38px;
+    line-height: 54px;
+    font-weight: 500;
+}
+.sec4-card1{
+   display: flex;
+   justify-content: flex-end;
+        padding: 50px 40px 55px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dae2e3;
+        border-radius: 26px;
+        background-color: #fff;
+        box-shadow: 4px 4px 14px 0 rgb(8 15 52 / 4%);
+        margin-top: 100px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        /* width: 90%;
+        margin: auto; */
+}
+.sec4-c1-btns,.sec4-c1-h{
+    display: flex;
+    justify-content: space-evenly;
+ 
+
+}
+.sec4-c1-btns{
+    width: 85%;
+    margin: auto;
+    margin-top: 40px
+}
+/* .sec4-c1-h{
+    justify-content: ;
+} */
+
+ .sec4-c1-box{
+   width: 75%;
+} 
+.sec4-c1-btns> div{
+padding: 20px;
+width: 170px;
+}
+.pricing-feautures{
+    border-top: 1px solid #dae2e3;
+    border-bottom: 1px solid #dae2e3;
+    background-color:rgb(245,249,250);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dae2e3;
+   
+}
+.f-head{
+   padding: 20px 0px;
+   margin-left: 10px;
+   margin-bottom: 0px;
+   font-size: 22px;
+   line-height: 30px;
+}
+
+/* -------PRICING TABLE--------- */
+.pricing-table{
+    display: grid;
+    padding-right: 0px;
+    padding-left: 35px;
+    grid-column-gap: 0px; 
+    grid-template-columns: 1.65fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    border-bottom: 1px solid #dae2e3;
+
+    width: 100%;
+    
+          /* padding: 50px 40px 55px; */
+          border-style: solid;
+          border-width: 1px;
+          border-color: #dae2e3;
+          border-bottom-right-radius: 26px;
+          border-bottom-left-radius: 26px;
+
+          background-color: #fff;
+          box-shadow: 4px 4px 14px 0 rgb(8 15 52 / 4%);
+}
+.pricing-table img{
+    width: 35px;
+    height: 34px;
+   
+
+}
+
+
+.price-checkbox{
+    padding: 35px 20px;
+    color: #576f76;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #dae2e3;
+}
+.price-c1{
+    max-width: 270px;
+    color: #576f76;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dae2e3;
+
+}
+.price-c3{
+    /* background-color: rgb(244,251,252); */
+    background-color: rgba(220, 248, 238, 0.3);;
+}
+
+.comparisonbg1{
+    position: relative;
+    top: 1000px;
+   
 }
