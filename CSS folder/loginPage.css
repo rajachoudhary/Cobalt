@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+font-family: 'Circular Std', sans-serif;
+color: #063c4d;
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+overflow-x: hidden;
+overflow-y: scroll;
+
+}
+a{
+    color: #063c4d;
+    text-decoration: none;
+
+    }
+.card{
+    padding: 50px 40px 55px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dae2e3;
+    border-radius: 26px;
+    background-color: #fff;
+    box-shadow: 4px 4px 14px 0 rgb(8 15 52 / 4%);
+}
+.part1{
+    /* background-color:rgb(231,249,245); */
+    background-color: rgb(248,251,253);
+    height: 90vh;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius:30%;
+}
+
+.signup-btn{
+    background-color: rgb(55,76,122);
+    width: 105px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 15px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    
+}
+.signup-btn a{
+color: white;
+text-decoration: none;
+text-align: center;
+
+}
+.login-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+#logo-img{
+    margin-left: 20px;
+    height: 70px;
+    width: 120px;
+    
+}
+#logo-img img{
+    height: 50px;
+    max-width: 100%;
+}
+
+.login-form{
+    width: 480px;
+    margin: auto;
+    height: 550px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.formicon-img{
+width: 100%;
+}
+.formicon-img img{
+    width: 60px;
+    height: 60px;
+    margin: 40px 210px;
+   margin-bottom: 0;
+   
+}
+.google-signin img{
+    width: 190px;
+    height: 46px;
+    margin: 10px 99px;
+
+}
+.google-signin:hover,.login-btn:hover,.signup-btn:hover{
+    transform: translateY(-6px);
+    transition-duration: .5s;
+}
+.login-form p{
+    text-align: center;
+
+}
+hr{
+  
+height: 1px;
+}
+.hr-div{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+form{
+    margin-top: 50px;
+}
+label{
+    display: block;
+
+margin:7px 15px;
+}
+input{
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    color: #606266;
+    
+    
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+    width: 400px;
+    height: 40px;
+
+}
+.login-btn{
+    width: 400px;
+   
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+.login-btn a{
+    margin: 15px 150px;
+}
+
+.formend{
+    margin-top: 60px;
+   background-color:rgb(247,247,247) ; 
+  width: 100%;
+  padding: 0px 40px;
+}
+.login-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+    margin-bottom: 40px;
+}
