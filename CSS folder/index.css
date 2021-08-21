@@ -770,6 +770,7 @@ display: flex;
   width: 85%;
   margin: auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .section-8 > div {
@@ -794,10 +795,10 @@ display: flex;
 }
 
 .section-8 > div > img {
-  width: 100px;
-  height: 100px;
-  padding: 20px;
-  border-radius: 80px;
+  width: 120px;
+  height: 120px;
+  padding: 15px;
+  border-radius: 60px;
   background-color: #dcf8ee;
   margin-bottom: 30px;
 }

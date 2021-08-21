@@ -112,3 +112,56 @@ height: 500px;
 margin-top: 30px;
 margin-left: 100px;
 }
+
+.have_que{
+    font-size: 24px;
+    color: #0a3947;
+    margin-top: 100px;
+    text-align: center;
+}
+.chat-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #00D586;
+    margin-bottom: 5px;
+}
+.chat-icon>i{
+    margin-right: 20px;
+}
+.chat-icon>p{
+    text-decoration: underline;
+}
+/* -------------------section-7---------------------- */
+
+.section-7-features>h3{
+    /* border: 1px solid black; */
+    width: 600px;
+    line-height: 1.5;
+    text-align: center;
+    height: 150px;
+    margin: auto;
+    color: white;
+    /* margin-top: 100px; */
+    padding-top:150px;
+    font-size: 38px;
+    justify-content: center;
+}
+.get-started-featues-section-7{
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: #fed265;
+    font-family: "Circular Std", sans-serif;
+    color: #0a3947;
+    font-weight: 600;
+    border: none;
+    margin-left: 650px;
+    margin-top: 150px;
+}
+/* ---------------section-11-------------------- */
+.section-11-features>h3{
+    width: 35%;
+}
