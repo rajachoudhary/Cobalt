@@ -219,7 +219,9 @@ strong{
     margin-left: 10px;
 }
 .text-span{
-    color:#31ded4; ;
+    color: #00d586;
+    font-size: 22px;
+    font-weight: bold;
 }
 .user-name{
      color: #063c4d;

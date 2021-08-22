@@ -9,7 +9,7 @@ btn.addEventListener("click", function (e) {
     count++
     console.log(count)
     e.preventDefault()
-    if (count%2===0) {
+     if ( btn.style.float === "right") {
         btn.style.float = "left"
     }
     else {
