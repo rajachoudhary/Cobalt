@@ -1267,7 +1267,7 @@ body {
 /* ---------MEDIA QUERIES FOR TABLET------- */
 @media screen and (max-width:980px){
   
-  #section1,.section5,.section-3>div,#section-4 > div > div,#section-4-box,.section-7{
+  #section1,.section5,.section-3>div,#section-4 > div > div,#section-4-box,.section-7,.privacy-sec1{
   grid-template-columns:1fr;
 
   }

@@ -588,8 +588,8 @@ margin-top: 50px;
 
 /* section-5 */
 #section-5{
-    width: 1220px;
-    margin: auto;
+    /* width: 1220px; */
+    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
   
@@ -655,3 +655,4 @@ strong{
     opacity: 0.7;
     font-weight: 600;
 }
+
