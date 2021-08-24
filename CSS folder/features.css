@@ -135,7 +135,9 @@ margin-left: 100px;
     text-decoration: underline;
 }
 /* -------------------section-7---------------------- */
-
+.section-7-features{
+    height: 560px;
+}
 .section-7-features>h3{
     /* border: 1px solid black; */
     width: 600px;
@@ -165,6 +167,7 @@ margin-left: 100px;
 /* ---------------section-11-------------------- */
 .section-11-features>h3{
     width: 35%;
+    padding-top: 200px;
 }
 
 /* section-4 */
@@ -173,13 +176,42 @@ margin-left: 100px;
     margin-left: 40%;
     margin-top: 80px;
     font-size: 20px;
+    border: 1px solid black;
 }
-/* feature-section-5 */
+
 #feature-testimonial-heading{
     font-size: 22px;
     line-height: 40px;
+    
+}
+/* -------------section5--------------- */
+
+.section-5-features{
+    /* border: 1px solid black; */
+    height: 900px;
+    margin-top: 150px;
+    /* padding: 200px; */
+}
+.features-section-4{
+    /* border: 1px solid black; */
+    width: 85%;
+    padding: 50px 0;
+    margin:150px auto;
+    height: 400px;
+
+}
+.features-section-5-rightImg{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 70% !important;
+    margin-left: 80px;
 }
 /* feature- section-8 */
+.features-8{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
 #feature-setion-8-left-img>img:nth-child(1){
    
     margin-left: 110px;
@@ -195,7 +227,7 @@ margin-left: 100px;
    
 }
 .feature-ready-btn{
-    border-radius: 100px;
+border-radius: 100px;
   background-color: #fff;
   box-shadow: 4px 4px 16px 0 rgb(255 210 101 / 16%);
   padding: 15px 30px;
@@ -220,23 +252,27 @@ margin-left: 100px;
   font-weight: 550;
   color: rgba(0, 0, 0, 0.637);
 }
-
-/* feature-section-9 */
+/* -------------SECTION-9-------------------- */
 
 #feature-section-9{
-    width: 1000px;
     margin: auto;
+    background-color: #F4FBFC;
 }
-#feature-section-9 > h2{
+.features-section-9-textPart {
+    width: 45%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.features-section-9-textPart > h2{
     text-align: center;
     font-size: 40px;
-    margin: 100px auto;
+    margin:  auto;
     width: 500px;
     line-height: 55px;
-    margin-bottom: 0px;
-    
+    padding-top: 100px;
 }
-#feature-section-9 >p{
+.features-section-9-textPart>p{
     color: #576f76;
     font-size: 18px;
     text-align: center;
@@ -247,60 +283,43 @@ margin-left: 100px;
     margin-top: -1px;
    
 }
-
 .feature-section-9-card{
     display: flex;
     margin: auto;
     flex-wrap: wrap;
-   
-    text-align: center;
-    padding-bottom: 50px;
+    width: 70% !important;
+    height: 300px;
+    margin-top: 50PX;
+    justify-content: center;
     
 }
 .feature-section-9-card > div{
+    width: 18% !important;
     display: flex;
     margin-left: 30px;
     flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around !important;
     
 }
 
-/* .feature-section-9-card > div > div{
-    margin-left: 40px;
-   
-    padding: 15px;
-    width: 200px;
-    border-radius: 20px;
-    
-} */
 
 .feature-section-9-card > div{
-   padding-left: 30px;
-   padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 10px; 
-     
-   
-    border: 1px solid rgb(211, 208, 208);
-    margin-top: 30px;
-    margin-left: 30px;
+   padding-left: 30px; 
+    padding-right: 30px; 
+     padding-top: 5px; 
+     padding-bottom: 10px;  
+     border: 1px solid rgb(211, 208, 208);
+     margin-left: 30px;
     align-items: center;
-    height: 103px;
+    height: 90px;
     border-radius: 20px;
-    background-color: rgb(255, 251, 251);
-
+     background-color: rgb(255, 251, 251); 
 }
 .feature-section-9-card > div> img{
     margin-top: 10px;
 }
-#first-image >img{
-   
-    width: 100px;
-    margin-bottom: 10px;
-    padding: 0px 10px;
-}
-/* .feature-section-9-card > div:nth-child(n+5){
-    margin-left: 30px;
-} */
+
 .feature-primary-btn {
   border-radius: 100px;
   background-color: #ffd265;
@@ -315,6 +334,8 @@ margin-left: 100px;
   width: 180px;
   margin: auto;
   padding: 18px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .feature-primary-btn-link {
   font-size: 16px;
