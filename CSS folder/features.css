@@ -1,3 +1,13 @@
+/* @media screen and (max-width:950px) {
+    .features-Section1-Bg-Left >img,.features-Section1-Bg-right>img{
+        display: none;
+} */
+@media screen and (max-width:980px){
+    .features-Section1-Bg-right,.features-Section1-Bg-Left{
+        display: none;
+    }
+    }
+    
 /* ------------------section1--------------------------- */
 .section-1-features{
     margin-bottom: 100px;
