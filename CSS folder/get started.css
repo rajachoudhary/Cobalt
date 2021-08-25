@@ -1,13 +1,12 @@
 #section-1{
     margin: auto;
-    width: 1200px;
     background-color: rgb(245, 255, 254);
     /* border: 1px solid black; */
     margin-top: 200px;
     height: 1200px;
 }
 #section-1 > div{
-    width: 80%;
+    width: 55%;
     margin: auto;
 }
 #section-1 > div> p:nth-child(1){
@@ -113,7 +112,7 @@ input[type="submit"]{
     font-size: 56px;
 }
 
-span{
+.label>span{
     color: red;
 }
 #no{
@@ -125,7 +124,17 @@ span{
 /* section-3 */
 .get-Started-section-3{
     /* border: 1px solid black; */
-    margin-bottom:-100px;
+    /* margin-bottom:-100px; */
+    height: 560px;
+}
+/* .section-9DownPart>img{
+    padding-bottom: 30px;
+} */
+@media screen and (max-width:980px){
+    .section-9bg-1>img, .section-9bg-2>img{
+        display: none;
+        
+    }
 }
 /* section-4 */
 #section-4-get-started{
@@ -155,22 +164,22 @@ span{
     text-align: center;
     font-size: 45px;
      color: #063c4d;
-     width: 400px;
+     /* width: 400px; */
      /* border: 1px solid black; */
-     margin: auto;
+     /* margin: auto; */
      margin-top: 50px;
 }
 
 /* section-5 */
 #section-5{
-    width: 1220px;
+    /* width: 1220px; */
     margin: auto;
     display: flex;
     flex-wrap: wrap;
   
 }
 #section-5 > div{
-    max-width: 30%;
+    width: 30%;
     margin: 1%;
     padding: 60px 20px 20px 30px;
     border: 1px solid rgb(216, 215, 215);
