@@ -33,7 +33,7 @@
 }
 
  #reg-form{
-    max-width: 65%;
+    /* max-width: 65%; */
     margin: auto;
 } 
 
@@ -122,25 +122,43 @@ input[type="submit"]{
     margin-left: 18px;
 }
 /* section-3 */
-.get-Started-section-3{
+.get-started-section-3>img{
+    position: relative;
+    top:-117px;
+    right: -20px;
     /* border: 1px solid black; */
-    /* margin-bottom:-100px; */
-    height: 560px;
 }
-/* .section-9DownPart>img{
-    padding-bottom: 30px;
-} */
+.section-9DownPart>img{
+    z-index: 50 !important;
+}
 @media screen and (max-width:980px){
     .section-9bg-1>img, .section-9bg-2>img{
         display: none;
         
     }
-}
+    /* .get-Started-section-2{
+        margin-bottom: 150px !important;
+    } */
+     .get-Started-section-3{
+        margin-top: 300px !important;
+    }
+    #section-1>div>h1{
+       line-height:1 ;
+    }
+    #section-1,#reg-form{
+        width: 90% !important;
+    }
+    #section-5 >div{
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+} 
 /* section-4 */
 #section-4-get-started{
     /* border: 1px solid black; */
     height: 200px;
-    width: 800px;
+    /* width: 800px; */
     margin: auto;
     margin-top: 100px;
    

@@ -595,7 +595,7 @@ margin-top: 50px;
   
 }
 #section-5 > div{
-    max-width: 30%;
+    width: 30%;
     margin: 1%;
     padding: 60px 20px 20px 30px;
     border: 1px solid rgb(216, 215, 215);
@@ -656,3 +656,11 @@ strong{
     font-weight: 600;
 }
 
+@media screen and (max-width:980px){
+    
+    #section-5 >div{
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+} 
